@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cisco - Maqueta Bootstrap</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <a class="navbar-brand mx-auto mx-lg-0" href="#">
+                <img src="https://via.placeholder.com/150x40/0d47a1/ffffff?text=CISCO" alt="Cisco Logo">
+            </a>
+            
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Soluciones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Soporte</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Recursos</a></li>
+                </ul>
+                <div class="d-flex">
+                    <button class="btn btn-outline-light me-2"><i class="fas fa-search"></i></button>
+                    <button class="btn btn-outline-light me-2"><i class="fas fa-user"></i></button>
+                    <button class="btn btn-outline-light"><i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="container-fluid p-0">
+        <div class="card jumbotron-card text-white">
+            <div class="card-img-overlay">
+                <h1 class="card-title display-3 fw-bold">Conectando el Futuro</h1>
+                <p class="card-text fs-4">Soluciones tecnológicas innovadoras para tu empresa</p>
+                <button class="btn btn-light btn-lg mt-3">Descubre más</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección Damero - 3 filas de 2 columnas -->
+    <div class="container damero-section">
+        <!-- Fila 1 -->
+        <div class="row mb-5 fade-in">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="card damero-card h-100">
+                    <div class="card-body p-5">
+                        <h2 class="card-title mb-3">Redes Empresariales</h2>
+                        <p class="card-text">Soluciones de red escalables y seguras que impulsan la transformación digital de tu organización. Conectividad confiable para todos tus dispositivos.</p>
+                        <a href="#" class="btn btn-primary">Más información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="damero-img fade-in">
+                    <img src="https://via.placeholder.com/500x300/42a5f5/ffffff?text=Red+Empresarial" alt="Red Empresarial" class="img-fluid rounded" loading="lazy">
+                </div>
+            </div>
+        </div>
+
+        <!-- Fila 2 -->
+        <div class="row mb-5 fade-in">
+            <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
+                <div class="card damero-card h-100">
+                    <div class="card-body p-5">
+                        <h2 class="card-title mb-3">Seguridad Cibernética</h2>
+                        <p class="card-text">Protege tu infraestructura con nuestras soluciones avanzadas de ciberseguridad. Detección de amenazas en tiempo real y respuesta automatizada.</p>
+                        <a href="#" class="btn btn-primary">Explorar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="damero-img fade-in">
+                    <img src="https://via.placeholder.com/500x300/1e88e5/ffffff?text=Ciberseguridad" alt="Seguridad" class="img-fluid rounded" loading="lazy">
+                </div>
+            </div>
+        </div>
+
+        <!-- Fila 3 -->
+        <div class="row mb-5 fade-in">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="card damero-card h-100">
+                    <div class="card-body p-5">
+                        <h2 class="card-title mb-3">Colaboración Cloud</h2>
+                        <p class="card-text">Herramientas de colaboración en la nube que permiten a tus equipos trabajar desde cualquier lugar. Videoconferencias, mensajería y más.</p>
+                        <a href="#" class="btn btn-primary">Conocer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="damero-img fade-in">
+                    <img src="https://via.placeholder.com/500x300/0d47a1/ffffff?text=Cloud+Collaboration" alt="Cloud" class="img-fluid rounded" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección Ancho Completo -->
+    <div class="full-width-section fade-in">
+        <div class="container">
+            <h2 class="display-4 mb-4">Innovación que transforma industrias</h2>
+            <p class="lead">Más de 30 años liderando la revolución tecnológica global</p>
+            <button class="btn btn-primary btn-lg mt-3">Nuestros casos de éxito</button>
+        </div>
+    </div>
+
+    <!-- Galería con Collapse (4 columnas) -->
+    <div class="container my-5">
+        <h2 class="text-center mb-5 fade-in">Nuestros Productos Destacados</h2>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="gallery-item fade-in" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                    <img src="https://via.placeholder.com/300x250/42a5f5/ffffff?text=Switches" alt="Switches" loading="lazy">
+                </div>
+                <div class="collapse mt-2" id="collapse1">
+                    <div class="card card-body">
+                        <h5>Switches de Red</h5>
+                        <p>Alta velocidad y rendimiento para tu infraestructura de red.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="gallery-item fade-in" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                    <img src="https://via.placeholder.com/300x250/1e88e5/ffffff?text=Routers" alt="Routers" loading="lazy">
+                </div>
+                <div class="collapse mt-2" id="collapse2">
+                    <div class="card card-body">
+                        <h5>Routers Empresariales</h5>
+                        <p>Conectividad robusta y segura para redes de cualquier tamaño.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="gallery-item fade-in" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                    <img src="https://via.placeholder.com/300x250/0d47a1/ffffff?text=Firewalls" alt="Firewalls" loading="lazy">
+                </div>
+                <div class="collapse mt-2" id="collapse3">
+                    <div class="card card-body">
+                        <h5>Firewalls Avanzados</h5>
+                        <p>Protección multicapa contra amenazas cibernéticas.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="gallery-item fade-in" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                    <img src="https://via.placeholder.com/300x250/1976d2/ffffff?text=Access+Points" alt="Access Points" loading="lazy">
+                </div>
+                <div class="collapse mt-2" id="collapse4">
+                    <div class="card card-body">
+                        <h5>Puntos de Acceso WiFi</h5>
+                        <p>Cobertura inalámbrica confiable en toda tu organización.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer con Redes Sociales (Accordion en móvil) -->
+    <div class="social-footer">
+        <div class="container">
+            <div class="d-none d-md-block text-center fade-in">
+                <h3 class="mb-4">Síguenos en Redes Sociales</h3>
+                <div>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <!-- Accordion para móvil -->
+            <div class="d-md-none accordion fade-in" id="socialAccordion">
+                <div class="accordion-item bg-dark border-0">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#socialCollapse">
+                            Redes Sociales
+                        </button>
+                    </h2>
+                    <div id="socialCollapse" class="accordion-collapse collapse" data-bs-parent="#socialAccordion">
+                        <div class="accordion-body bg-dark text-center">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <p class="mb-0">&copy; 2024 Cisco Systems. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Efecto de aparición con scroll (fade-in)
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
